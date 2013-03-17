@@ -94,6 +94,6 @@ public class VarastoTest {
     @Test
     public void yritetaanOttaaMiinusta(){
         varasto.otaVarastosta(-4);
-        assertEquals(-4, varasto.getSaldo(), vertailuTarkkuus);
+        assertEquals(0, varasto.getSaldo(), vertailuTarkkuus);
     }
 }
